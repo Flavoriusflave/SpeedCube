@@ -4,10 +4,26 @@ using UnityEngine;
 
 public class Reflector : Pickups
 {
+    [SerializeField]
+    private bool Xreflect;
+    [SerializeField]
+    private bool Yreflect;
+    
     public override void PickupEffect(GameObject playerObject)
     {
-        //increase player max speed
-        playerObject.GetComponent<Square>().momentum *= -1f;
+        //change player direction
+        Vector2 playerMomentum = playerObject.GetComponent<Square>().momentum;
+        if (Xreflect)
+        {
+            playerMomentum.x *= -1f;
+        }
+        if (Yreflect)
+        {
+            playerMomentum.y *= -1f;
+        }
+
+        playerObject.GetComponent<Square>().momentum = playerMomentum;
+
 
         base.PickupEffect(playerObject);
     }
