@@ -13,16 +13,21 @@ using UnityEngine.SceneManagement;
 public class MenuUIHandler : MonoBehaviour
 {
 
-    public void StartGame()
+    public static void StartGame()
     {
         SceneManager.LoadScene(1);
     }
-    public void ToMainMenu()
+    public static void ToMainMenu()
     {
         SceneManager.LoadScene(0);
     }
 
-    public void Exit()
+    public static void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public static void Exit()
     {
 #if UNITY_EDITOR
         EditorApplication.ExitPlaymode();
