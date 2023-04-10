@@ -9,6 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 232ae238a2d98f74faecc16460ef5b0b
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/level ideas/Level A 1.unity
+    guid: ab6f72c9d2c5ed94c8b1308ede7deb5c
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level A 2.unity
+    guid: 41bae64257535104d8cefeae83131804
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level A 3.unity
+    guid: 61aba2a2e714b274a862b69a3a017dee
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level B 1.unity
+    guid: 145b8f0a288306a4da17e6c0e47da460
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level B 2.unity
+    guid: d419f3415794cbc46a2d366bd4a383ea
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level B 3.unity
+    guid: dad0dfcdd25adb04ea19bafddcb3b968
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level C 1.unity
+    guid: 832e82363a95bb64895e6326a3a0fe8d
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level C 2.unity
+    guid: 07e96ccd7cf6939459354959a1230394
+  - enabled: 1
+    path: Assets/Scenes/level ideas/Level C 3.unity
+    guid: c8a777b4e1eb9054da52c43a3fa630e2
   m_configObjects: {}
