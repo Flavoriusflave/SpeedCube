@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class Reflector : Pickups
 {
     [SerializeField]
     private bool Xreflect;
     [SerializeField]
     private bool Yreflect;
-    
+
+    // POLYMORPHISM
     public override void PickupEffect(GameObject playerObject)
     {
         //change player direction

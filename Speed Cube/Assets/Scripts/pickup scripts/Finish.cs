@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// INHERITANCE
 public class Finish : Pickups
 {
+
+    // POLYMORPHISM
     public override void PickupEffect(GameObject playerObject)
     {
         //go to next level

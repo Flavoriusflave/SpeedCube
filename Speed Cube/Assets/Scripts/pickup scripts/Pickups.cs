@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public abstract class Pickups : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
@@ -12,6 +13,7 @@ public abstract class Pickups : MonoBehaviour
         }
     }
 
+    // ABSTRACTION
     public virtual void PickupEffect(GameObject playerObject)
     {
         gameObject.SetActive(false);

@@ -6,6 +6,7 @@ public class Square : MonoBehaviour
 {
     private Rigidbody2D rb;
 
+    // ENCAPSULATION
     private Vector2 m_momentum;
     public Vector2 momentum
     {
