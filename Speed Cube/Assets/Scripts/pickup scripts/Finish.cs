@@ -8,8 +8,14 @@ public class Finish : Pickups
     public override void PickupEffect(GameObject playerObject)
     {
         //go to next level
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        
-        base.PickupEffect(playerObject);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (SceneManager.sceneCountInBuildSettings - 1 > currentSceneIndex)
+        {
+            SceneManager.LoadScene(currentSceneIndex + 1);
+        }
+        else
+        {
+            SceneManager.LoadScene(0);
+        }       
     }
 }

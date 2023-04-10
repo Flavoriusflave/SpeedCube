@@ -114,4 +114,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 210501958bd18734e86a64256a25aaea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boostMultiplier: 1.5
+  boostMultiplier: 3
